@@ -24,7 +24,7 @@ function accountReducer(state=accountState,action){
 // const rootReducer = combineReducers({
 //     user: userReducer,
 //     posts: postsReducer,
-//   });
+// });
 
 let store = createStore(accountReducer);
 export default store;

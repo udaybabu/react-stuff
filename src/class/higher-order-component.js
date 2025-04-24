@@ -8,7 +8,7 @@ import Profile from "./utilty/profile";
 const HigherOrderComponents = () => {
     
     const LoginComponent = AuthCheck(Login);
-    const ProfileComponent = AuthCheck(Profile)
+    const ProfileComponent = AuthCheck(Profile);
     return (<>
            <LoginComponent data={"Hi Preaveen!"}/>
            <ProfileComponent data={"Bye praveen!"} />

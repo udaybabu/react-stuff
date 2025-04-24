@@ -13,7 +13,7 @@ const User = ({name,age,isActive}) => {
 User.propTypes={
     name:PropTypes.string.isRequired,
     age:PropTypes.number.isRequired,
-    isActive: PropTypes.bool
+    isActive:PropTypes.bool
 }
 
 User.defaultProps={

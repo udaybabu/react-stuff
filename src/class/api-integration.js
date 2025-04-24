@@ -4,8 +4,6 @@ import Config from "./config";
 const ApiIntegration = () => {
 
     useEffect(() => {
-
-
         GetApiData();
     }, []);
 

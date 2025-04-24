@@ -16,6 +16,10 @@ class EmployeeComponent extends Component {
         }
     }
 
+    static getDerivedStateFromError(error){
+      
+    }
+
     getSnapshotBeforeUpdate(preprops,prestate) {
         console.log("inside get snapshot before update");
         return null;

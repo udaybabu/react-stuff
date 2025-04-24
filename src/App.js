@@ -108,7 +108,7 @@ function App() {
           <li><Link to="class/default-props">43.Default props in react</Link></li>
           <li><Link to="class/portals">44.Portals in react</Link></li>
           <li><Link to="class/use-reducer-hook">45.UseReducerHook in react</Link></li>
-          <li><Link to="class/redux-test">46.Redux in react</Link></li>
+          <li><Link to="class/redux-test">46.in react</Link></li>
         </ul>
         {/* <Suspense fallback={<div>Loading...</div>}> */}
         <Routes>

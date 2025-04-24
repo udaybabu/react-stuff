@@ -27,6 +27,6 @@ function Profile() {
 function Info() {
     let data = useContext(context);
     return (<>
-        <div>This is props drilling example:{data.name}</div>
+        <div>This is props drilling example:{data.name}</div>      
     </>)
 }

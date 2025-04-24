@@ -16,7 +16,7 @@ User.propTypes={
 User.defaultProps={
     name:"NA",
     age:0,
- isAdmin:false
+    isAdmin:false
 }
 
 const PropsTypes = () => {
