@@ -52,6 +52,7 @@ import DefaultProps from './class/default-props';
 import Protals from './class/portals';
 import UseReducerHook from './class/use-reducer-hook';
 import ReduxTest from './class/redux-test';
+import ReactQuery from './class/use-query';
 
 function App() {
 
@@ -108,7 +109,8 @@ function App() {
           <li><Link to="class/default-props">43.Default props in react</Link></li>
           <li><Link to="class/portals">44.Portals in react</Link></li>
           <li><Link to="class/use-reducer-hook">45.UseReducerHook in react</Link></li>
-          <li><Link to="class/redux-test">46.in react</Link></li>
+          <li><Link to="class/redux-test">46.Redux in react</Link></li>
+          <li><Link to="class/react-query">47.React Query</Link></li>
         </ul>
         {/* <Suspense fallback={<div>Loading...</div>}> */}
         <Routes>
@@ -165,6 +167,7 @@ function App() {
           <Route path='class/portals' element={<Protals />} />
           <Route path='class/use-reducer-hook' element={<UseReducerHook />}/>
           <Route path='class/redux-test'element={<ReduxTest />} />
+          <Route path='class/react-query' element={<ReactQuery />}/>
           <Route path='*' element={<WildCardRoutes />} />
         </Routes>
         {/* </Suspense> */}
