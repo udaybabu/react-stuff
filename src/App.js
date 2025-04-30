@@ -53,6 +53,9 @@ import Protals from './class/portals';
 import UseReducerHook from './class/use-reducer-hook';
 import ReduxTest from './class/redux-test';
 import ReactQuery from './class/use-query';
+import Todolist from './class/todo-list';
+import CounterDemo from './class/counter-demo';
+import Stopwatch from './class/stopwatch-app';
 
 function App() {
 
@@ -79,7 +82,7 @@ function App() {
           <li><Link to="class/background-color-change">13.Background color change</Link></li>
           <li><Link to="class/counter-app">14.Counter app</Link></li>
           <li><Link to="class/props-destrecturing">15.Props destrecturing</Link></li>
-          <li><Link to="class/props-destrecturing">16.Todo app</Link></li>
+          <li><Link to="class/todo-list">16.Todo app</Link></li>
           <li><Link to="class/twoway-databinding">17.Two way data binding</Link> </li>
           <li><Link to="">18.Calculator app</Link> </li>
           <li><Link to="">19.What is virtual DOM in react</Link> </li>
@@ -111,6 +114,8 @@ function App() {
           <li><Link to="class/use-reducer-hook">45.UseReducerHook in react</Link></li>
           <li><Link to="class/redux-test">46.Redux in react</Link></li>
           <li><Link to="class/react-query">47.React Query</Link></li>
+          <li><Link to="class/counter-demo">48.Counter App</Link></li>
+          <li><Link to="class/stopwatch-app">49.Stop Watch</Link></li>
         </ul>
         {/* <Suspense fallback={<div>Loading...</div>}> */}
         <Routes>
@@ -129,6 +134,7 @@ function App() {
           <Route path='class/background-color-change' element={<BackgroundColorChange />} />
           <Route path='class/counter-app' element={<CounterApp />} />
           <Route path='class/props-destrecturing' element={<PropsDestrecturing />} />
+          <Route path='class/todo-list' element={<Todolist />} />
           <Route path='class/twoway-databinding' element={<TwowayDataBinding />} />
           <Route path='class/conditonal-rendering' element={<ConditionalRendering />} />
           <Route path='class/useeffect-hook' element={<UseeffectHook />} />
@@ -168,6 +174,8 @@ function App() {
           <Route path='class/use-reducer-hook' element={<UseReducerHook />}/>
           <Route path='class/redux-test'element={<ReduxTest />} />
           <Route path='class/react-query' element={<ReactQuery />}/>
+          <Route path='class/counter-demo' element={<CounterDemo />} />
+          <Route path='class/stopwatch-app' element={<Stopwatch />} />
           <Route path='*' element={<WildCardRoutes />} />
         </Routes>
         {/* </Suspense> */}
