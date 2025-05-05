@@ -56,7 +56,7 @@ import ReactQuery from './class/use-query';
 import Todolist from './class/todo-list';
 import CounterDemo from './class/counter-demo';
 import Stopwatch from './class/stopwatch-app';
-
+import UseCallBack from './class/usecallback';
 function App() {
 
   const btnJsxAction = () => {
@@ -116,6 +116,7 @@ function App() {
           <li><Link to="class/react-query">47.React Query</Link></li>
           <li><Link to="class/counter-demo">48.Counter App</Link></li>
           <li><Link to="class/stopwatch-app">49.Stop Watch</Link></li>
+          <li><Link to="class/use-call-back">50.Use Callback hook</Link></li>
         </ul>
         {/* <Suspense fallback={<div>Loading...</div>}> */}
         <Routes>
@@ -176,6 +177,7 @@ function App() {
           <Route path='class/react-query' element={<ReactQuery />}/>
           <Route path='class/counter-demo' element={<CounterDemo />} />
           <Route path='class/stopwatch-app' element={<Stopwatch />} />
+          <Route path='class/use-call-back' element={<UseCallBack />}/>
           <Route path='*' element={<WildCardRoutes />} />
         </Routes>
         {/* </Suspense> */}
