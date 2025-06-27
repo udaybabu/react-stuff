@@ -7,7 +7,7 @@ const LazyloadingConditional = () => {
 
     return (<>
         <div>
-            <Suspense>
+            <Suspense fallback={<div>Loading...</div>}>
                 <Profile data={"naveen"} />
             </Suspense>
         </div>
